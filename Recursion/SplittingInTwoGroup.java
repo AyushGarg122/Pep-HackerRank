@@ -43,11 +43,9 @@ public class Main {
 
         ArrayList<Pair> myAns = new ArrayList<>();
 
-
         for(Pair p: recAns1){
             myAns.add(new Pair(arr[idx] + " " + p.set1,p.set2));
         }
-
 
         for(Pair p: recAns2){
             myAns.add(new Pair(p.set1,arr[idx] + " " + p.set2));
